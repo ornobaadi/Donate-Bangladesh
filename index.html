@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
 
     <style>
         .lexend {
@@ -40,11 +41,11 @@
 
 <body class="lexend">
     <header class="mx-auto sticky top-0 z-10 bg-white/30 backdrop-blur-md ">
-        <nav class="bg-[#fffc5318] bg-opacity-15">
-            <div class="pt-4 px-20 items-center">
+        <nav class="bg-[#fffc5328]">
+            <div class="py-4 px-44 items-center">
                 <div class="navbar">
                     <div class="navbar-start">
-                        <a class="btn bg-green-primary" href="">Blog</a>
+                        <a class="btn bg-green-primary" href="blog.html">Blog</a>
                     </div>
                     <div class="navbar-center">
                         <img class="cursor-pointer" src="Assets/logo.png" alt="">
@@ -65,12 +66,13 @@
         </section>
     </header>
     <main>
+        <!-- Noakhali  -->
         <section class="container mx-auto m-8">
-            <div class="card card-side bg-base-100 border-2">
-                <figure class="p-8 w-full">
+            <div class="card card-side bg-base-100 border-2 flex flex-col md:flex-row">
+                <figure class="p-8 w-full md:w-2/5">
                     <img src="Assets/noakhali.png" />
                 </figure>
-                <div class="card-body">
+                <div class="card-body w-full md:w-1/2">
                     <div class="flex justify-start w-[150px] bg-[#1111110D] py-3 px-4 rounded-lg items-center">
                         <img class="mr-2" src="./assets/coin.png" alt="">
                         <p id="donation-value" class="mr-1">200<span> BDT</span></p>
@@ -87,12 +89,13 @@
                 </div>
             </div>
         </section>
+        <!-- Feni  -->
         <section class="container mx-auto m-8">
-            <div class="card card-side bg-base-100 border-2">
-                <figure class="p-8 w-full">
+            <div class="card card-side bg-base-100 border-2 flex flex-col md:flex-row">
+                <figure class="p-8 w-full md:w-2/5">
                     <img src="Assets/feni.png" />
                 </figure>
-                <div class="card-body">
+                <div class="card-body w-full md:w-1/2">
                     <div class="flex justify-start w-[150px] bg-[#1111110D] py-3 px-4 rounded-lg items-center">
                         <img class="mr-2" src="./assets/coin.png" alt="">
                         <p id="donation-value" class="mr-1">200<span> BDT</span></p>
@@ -106,12 +109,13 @@
                 </div>
             </div>
         </section>
-        <section class="container mx-auto m-8">
-            <div class="card card-side bg-base-100 border-2">
-                <figure class="p-8 w-full">
+        <!-- Quota  -->
+        <section class="container mx-auto ">
+            <div class="card card-side bg-base-100 border-2 flex flex-col md:flex-row">
+                <figure class="p-8 w-full md:w-2/5">
                     <img src="Assets/quota-protest.png" />
                 </figure>
-                <div class="card-body">
+                <div class="card-body w-full md:w-1/2">
                     <div class="flex justify-start w-[150px] bg-[#1111110D] py-3 px-4 rounded-lg items-center">
                         <img class="mr-2" src="./assets/coin.png" alt="">
                         <p id="donation-value" class="mr-1">200<span> BDT</span></p>
@@ -126,6 +130,9 @@
             </div>
         </section>
     </main>
+    <footer>
+        <div class="h-20 bg-[#fffc5328] mt-9"></div>
+    </footer>
 </body>
 
 </html>

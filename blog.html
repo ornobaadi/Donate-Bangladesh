@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate Bangladesh</title>
+    <!-- Daisy UI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
+
+    <style>
+        .lexend {
+            font-family: "Lexend", sans-serif;
+        }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        'green-primary': '#B4F461',
+                        'nav-bg': '#F9F7F3',
+                        'btn-secondary': '#1111110D',
+                        'text-p': '#111111B2',
+
+                    }
+                }
+            }
+        }
+    </script>
+
+
+</head>
+
+<body class="lexend">
+    <header class="mx-auto sticky top-0 z-10 bg-white/30 backdrop-blur-md ">
+        <nav class="bg-[#fffc5328]">
+            <div class="py-4 px-44 items-center">
+                <div class="navbar">
+                    <div class="navbar-start">
+                        <a class="btn bg-green-primary" href="index.html">Home</a>
+                    </div>
+                    <div class="navbar-center">
+                        <img class="cursor-pointer" src="Assets/logo.png" alt="">
+                        <a class="btn btn-ghost text-xl">Donate Bangladesh</a>
+                    </div>
+                    <div class="navbar-end">
+                        <img class="pr-2" src="Assets/coin.png" alt="">
+                        <p class="font-semibold text-text-p">40000<span> BDT</span></p>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container mx-auto">
+            <h1 class="font-semibold text-5xl my-12">Important FAQ</h1>
+            <div class="join join-vertical w-full">
+                <div class="collapse collapse-arrow join-item border-base-300 border">
+                    <input type="radio" name="my-accordion-4" checked="checked" />
+                    <div class="collapse-title text-xl font-medium">What is the DOM(Document Object Model)?</div>
+                    <div class="collapse-content">
+                        <p>The DOM (Document Object Model) is a programming interface that allows web developers to
+                            interact with and manipulate the structure, style, and content of HTML or XML documents. It
+                            represents the page as a hierarchical tree of objects (nodes), where each node corresponds
+                            to a part of the document—whether an element, attribute, or text. This allows developers to
+                            dynamically change the document structure or content using JavaScript, without requiring a
+                            page reload.</p>
+                    </div>
+                </div>
+                <div class="collapse collapse-arrow join-item border-base-300 border">
+                    <input type="radio" name="my-accordion-4" />
+                    <div class="collapse-title text-xl font-medium">How does the DOM work?</div>
+                    <div class="collapse-content">
+                        <p>The DOM represents the document as a tree of objects, with the root node being the document
+                            object. Each node represents an HTML element, attribute, or text. JavaScript can access and
+                            modify these nodes via various DOM methods. The browser continuously updates the page in
+                            real-time based on these changes. For example, changing the text inside a
+                        <p> tag or dynamically adding a new button to the page happens through DOM manipulation.
+                        </p>
+                    </div>
+                </div>
+                <div class="collapse collapse-arrow join-item border-base-300 border">
+                    <input type="radio" name="my-accordion-4" />
+                    <div class="collapse-title text-xl font-medium">What are DOM events and how do they work?
+                    </div>
+                    <div class="collapse-content">
+                        <p>DOM events are actions or occurrences that happen in the browser, often as a result of user interaction. Common examples of events include clicking a button, pressing a key, submitting a form, or hovering over an image. When these events occur, the browser can trigger certain functions or actions in response, allowing developers to create interactive experiences. For example, if a user clicks on a "Submit" button, the browser can display a thank-you message or validate the form. Event handling is a fundamental part of web development, as it allows websites to respond to user input and take appropriate actions, making the website feel more interactive and alive.
+                        </p>
+                    </div>
+                </div>
+                <div class="collapse collapse-arrow join-item border-base-300 border">
+                    <input type="radio" name="my-accordion-4" />
+                    <div class="collapse-title text-xl font-medium">How does the DOM work in web development?</div>
+                    <div class="collapse-content">
+                        <p>The DOM acts as a bridge between web content (like HTML) and programming languages (like JavaScript). When a web browser loads an HTML document, it parses the HTML to create a live representation of the document as a structured hierarchy of nodes. Every part of a webpage—text, images, links, buttons, etc.—is represented as a node, and these nodes can be accessed and manipulated programmatically. This capability is what makes modern web development so dynamic. Developers can control almost every aspect of the web page, such as displaying and hiding elements, updating text, or triggering actions based on user input. This creates a more interactive user experience compared to static web pages.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="h-20 bg-[#fffc5328] mt-9"></div>
+    </footer>
+
+</body>
