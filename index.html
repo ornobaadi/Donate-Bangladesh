@@ -1,11 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Donate Bangladesh</title>
+    <!-- Daisy UI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+
+    <style>
+        .lexend {
+            font-family: "Lexend", sans-serif;
+        }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        'green-primary': '#B4F461',
+                        'nav-bg': '#F9F7F3',
+                        'btn-secondary': '#1111110D',
+                    }
+                }
+            }
+        }
+    </script>
+
+
 </head>
-<body>
-    
+
+<body class="lexend">
+    <header class="container mx-auto">
+        <nav class="">
+            <div class="mt-4 items-center">
+                <div class="navbar bg-base-100">
+                    <div class="navbar-start">
+                            <a class="btn bg-green-primary" href="">Blog</a>
+                    </div>
+                    <div class="navbar-center">
+                        <img class="cursor-pointer" src="Assets/logo.png" alt="">
+                        <a class="btn btn-ghost text-xl">Donate Bangladesh</a>
+                    </div>
+                    <div class="navbar-end">
+                        <img class="pr-2" src="Assets/coin.png" alt="">
+                        <p class="font-semibold text-[#111111B2]">40,000</p><span>BDT</span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <section>
+            <div class="flex justify-center pt-16 pb-9 gap-3">
+                <button id="donation-btn" class="btn py-4 px-8 bg-[#B4F461] border-none">Donation</button>
+                <button id="history-btn" class="btn py-4 px-8 border-none">History</button>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section>
+
+        </section>
+    </main>
 </body>
+
 </html>
