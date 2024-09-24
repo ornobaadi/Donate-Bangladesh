@@ -26,6 +26,6 @@ function toggleButton(activeButton, inactiveButton) {
     activeButton.classList.remove('bg-white', 'text-black', );
 
     // Set the inactive button to white
-    inactiveButton.classList.add('bg-white', 'text-black', 'border-[1px]');
+    inactiveButton.classList.add('bg-white', 'text-[black]', 'border-[1px]');
     inactiveButton.classList.remove('bg-[#B4F461]', 'text-white', 'border-2');
 }
